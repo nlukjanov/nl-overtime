@@ -2,9 +2,9 @@
 
 ## Key requirements: to document presence of overtime hours on a weekly basis for salaried employees
 
-- Post -> date:date rationale:text
-x User -> Devise
-x AdminUser -> STI
+- x Post -> date:date rationale:text, connected to User
+- x User -> Devise
+- x AdminUser -> STI
 
 ## Feature:
 - Approval workflow
