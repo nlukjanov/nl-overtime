@@ -8,7 +8,7 @@
 
 puts '1 User created'
 
-User.create(
+AdminUser.create(
             email: "admin@test.com",
             password: "asdasd",
             password_confirmation: "asdasd",
