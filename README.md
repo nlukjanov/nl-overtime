@@ -5,19 +5,20 @@
 - x Post -> date:date rationale:text, connected to User
 - x User -> Devise
 - x AdminUser -> STI
+- AuditLog
 
 ## Feature:
 - Approval workflow
 - SMS Sending -> link to approval or overtime input
-- Administrate admin dashboard
-- Block non admin and guest users from admin dashboard
+- X Administrate admin dashboard
+- X Block non admin and guest users from admin dashboard
 - Email summary to managers for approval
 - Needs to be documented if employee did not log overtime
 
 ## UI:
 - X Bootstrap -> formatting
 - X Update styles for forms
-- Icons from font awesome
+- X Icons from glyphicon
 
 
 ##Refactor TODOS:
