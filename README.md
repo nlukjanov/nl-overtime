@@ -21,6 +21,8 @@
 - X Icons from glyphicon
 
 
-##Refactor TODOS:
-- X Add full_name method for users
-- Refactor form for admin user with status
+## TODOS:
+- Integrate validation for phone attr in User:
+  # No spaces or dashes
+  # exactly 10 characters
+  # all characters have to be a number
