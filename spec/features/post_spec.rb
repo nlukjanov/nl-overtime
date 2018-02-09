@@ -37,7 +37,8 @@ describe 'navigate' do
                                         last_name: 'Authorized',
                                         email: "nonauth@example.com",
                                         password: 'asdasd',
-                                        password_confirmation: 'asdasd'
+                                        password_confirmation: 'asdasd',
+                                        phone: "5555555555"
                                         )
       post_from_other_user = Post.create(date: Date.today, rationale: "This post shouldn't be seen", user_id: other_user.id, overtime_request: 3.5)
 
