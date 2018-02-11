@@ -9,20 +9,29 @@
 
 ## Feature:
 - Approval workflow
-- SMS Sending -> link to approval or overtime input
+- SMS Sending -> link to approval or overtime input -> integrate with Heroku scheduler
 - X Administrate admin dashboard
 - X Block non admin and guest users from admin dashboard
 - Email summary to managers for approval
 - Needs to be documented if employee did not log overtime
 
-## UI:
-- X Bootstrap -> formatting
-- X Update styles for forms
-- X Icons from glyphicon
-
-
 ## TODOS:
-- Integrate validation for phone attr in User:
-  # No spaces or dashes
-  # exactly 10 characters
-  # all characters have to be a number
+
+Goal of audit log:
+
+Keep track of if an employee had overtime or not
+
+Dependencies:
+  - User
+
+Attrs:
+  - Status:integer (enum) -> pending, complete
+  - start_date:date - > default previous Monday
+  - date_verified
+
+Monday
+|
+|
+Sunday
+
+rails g resource AuditLog user:references status:integer start_date:date end_date:date
