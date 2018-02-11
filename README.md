@@ -35,3 +35,5 @@ Monday
 Sunday
 
 rails g resource AuditLog user:references status:integer start_date:date end_date:date
+
+AuditLog.create!(user_id: User.last.id, status: 0, start_date: (Date.today - 6.days))
