@@ -9,11 +9,12 @@
 
 ## Feature:
 - x Approval workflow
-- SMS Sending -> link to approval or overtime input -> integrate with Heroku scheduler
+- x SMS Sending -> link to approval or overtime input -> integrate with Heroku scheduler
 - X Administrate admin dashboard
 - X Block non admin and guest users from admin dashboard
-- Email summary to managers for approval
+- x Email summary to managers for approval
 - x Needs to be documented if employee did not log overtime
+- update end_date
 
 ## TODOS:
 - update email to sent out email
