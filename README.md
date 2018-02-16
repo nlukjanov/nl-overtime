@@ -9,11 +9,22 @@
 
 ## Feature:
 - x Approval workflow
-- SMS Sending -> link to approval or overtime input -> integrate with Heroku scheduler
+- x SMS Sending -> link to approval or overtime input -> integrate with Heroku scheduler
 - X Administrate admin dashboard
 - X Block non admin and guest users from admin dashboard
-- Email summary to managers for approval
+- x Email summary to managers for approval
 - x Needs to be documented if employee did not log overtime
+- x Create audit log for each text message
+- x home page icon
+- need to update end_date when confirmed
+- need to update audit log status when an overtime status have been rejected
+- update buttons on employee homepage
+- update buttons to include time span
+- update button sort order on employee homepage
+- remove unnecessary nav bar for managers
+- fix admin dashboard bug
+- implement HoneyBadger error reporting
+- implement new relic for keeping site alive
 
 ## TODOS:
 - update email to sent out email
