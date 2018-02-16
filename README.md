@@ -17,9 +17,9 @@
 - x Create audit log for each text message
 - x home page icon
 - x need to update end_date when confirmed
-- need to update audit log status when an overtime status have been rejected
-- update buttons on employee homepage
-- update buttons to include time span
+- x need to update audit log status when an overtime status have been rejected
+- x update buttons on employee homepage
+- x update buttons to include time span
 - update button sort order on employee homepage
 - remove unnecessary nav bar for managers
 - fix admin dashboard bug
