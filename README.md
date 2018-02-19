@@ -14,6 +14,7 @@
 - X Block non admin and guest users from admin dashboard
 - x Email summary to managers for approval
 - x Needs to be documented if employee did not log overtime
+<<<<<<< HEAD
 - x Create audit log for each text message
 - x home page icon
 - x need to update end_date when confirmed
@@ -26,6 +27,20 @@
 - implement HoneyBadger error reporting
 - implement new relic for keeping site alive
 - Check on data issue and verify correct hours are being tracked
+=======
+- update end_date
+- x create audit log for each text message
+- x need to update end_date when confirmed
+- x need to update audt log status when overtime rejected
+- x udpate buttons on employee homepage for mobile use
+- x update buttons to include time span
+- x update button sort order on employee homepage
+- x remove unnecessary nav bar buttons for managers
+- fix admin dashboard bug
+- implement honey badger error reporting
+- implement new relic for keeping site alive
+- check on data issue and verify correct hours are being tracked
+>>>>>>> 219d4ce9fc839ba52967819caa017a3b9b2a03db
 
 ## TODOS:
 - update email to sent out email
