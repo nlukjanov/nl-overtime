@@ -1,4 +1,4 @@
-FactoryBot.define do
+ FactoryBot.define do
   sequence :email do |n|
     "test#{n}@example.com"
   end
@@ -10,6 +10,8 @@ FactoryBot.define do
     password 'asdasd'
     password_confirmation 'asdasd'
     phone '5555555555'
+    ssn 1234
+    company "ABC company"
   end
 
   factory :admin_user, class: "AdminUser" do
@@ -19,6 +21,8 @@ FactoryBot.define do
     password 'asdasd'
     password_confirmation 'asdasd'
     phone '5555555555'
+    ssn 1234
+    company "ABC company"
   end
 
     factory :non_authorized_user, class: "User" do
@@ -28,6 +32,8 @@ FactoryBot.define do
     password 'asdasd'
     password_confirmation 'asdasd'
     phone '5555555555'
+    ssn 1234
+    company "ABC company"
   end
 
 end

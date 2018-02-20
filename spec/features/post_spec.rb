@@ -32,13 +32,15 @@ describe 'navigate' do
     end
 
     it 'has a scope so that only post creators can see their posts' do
-      other_user = User.create(
+      other_user = User.create!(
                                 first_name: 'Non',
                                 last_name: 'Authorized',
                                 email: "nonauth@example.com",
                                 password: 'asdasd',
                                 password_confirmation: 'asdasd',
-                                phone: "5555555555"
+                                phone: "5555555555",
+                                ssn: 1234,
+                                company: "ABC Company"
                                 )
       post_from_other_user = Post.create(date: Date.today, rationale: "This post shouldn't be seen", user_id: other_user.id, overtime_request: 3.5)
 
@@ -55,7 +57,9 @@ describe 'navigate' do
                                   email: "employee@example.com",
                                   password: 'asdasd',
                                   password_confirmation: 'asdasd',
-                                  phone: "5555555555"
+                                  phone: "5555555555",
+                                  ssn: 1234,
+                                  company: "ABC Company"
                                   )
       login_as(employee, scope: :user)
       visit root_path
