@@ -31,7 +31,7 @@ AuditLog.create!(user_id: @employee.id, status: 0, start_date: (Date.today - 20.
 puts '3 audit logs have been created'
 
 100.times do |post|
-  Post.create!(date: Date.today, rationale: "#{post} rationale content extended ext endede xtend edexten ded ext ended extendede xtended exten ded extend dext ended exten dedext endedext ended extend edexten ded extended  extended extended extended extended extended v extended  sadfds asdf asdf asdfas dfas dfas dfas dfasd fasdf asdf asd fasd fas df asdf das fs adf asd fas df asd fas df asd fasd ", user_id: @employee.id, daily_hours: 12.5)
+  Post.create!(date: Date.today, work_performed: "#{post} work_performed content extended ext endede xtend edexten ded ext ended extendede xtended exten ded extend dext ended exten dedext endedext ended extend edexten ded extended  extended extended extended extended extended v extended  sadfds asdf asdf asdfas dfas dfas dfas dfasd fasdf asdf asd fasd fas df asdf das fs adf asd fas df asd fas df asd fasd ", user_id: @employee.id, daily_hours: 12.5)
 end
 
 puts '100 posts have been created'
